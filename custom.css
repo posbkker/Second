@@ -13,9 +13,21 @@ img {
 }
 
 
+.nav ul li {
+        margin-left: 15px;
+        display:inline-block;
+}
 
-
-
+.nav ul {
+     float:right;
+     text-align:right;
+     height:40px;
+}
+    
+.logo {
+    width: 100px;
+    margin-top: 0px
+}
 
 .main-container {
     text-align: center;
@@ -26,8 +38,19 @@ img {
 }
 
 .nav-top {
-    text-align: right;
-    margin: auto;
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue
+    
+}
+
+
+
+.nav-top a {
+    float: right;
+    padding: 20px;
+    text-align:right;
 
 }
     

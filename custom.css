@@ -1,8 +1,68 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    padding : 0;
+}
+
+img {
+    width: 250px;
+    margin-top: 250px
+}
+
+
+
+
+
+
 .main-container {
-    background-color: antiquewhite;
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+    height: 850px;
+    
+}
+
+.nav-top {
+    text-align: right;
+    margin: auto;
+
+}
+    
+p {
+    font-family: 'Dosis', sans-serif;
+}
+   
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    letter-spacing: 10px;
+    
+}
+
+.special {
+    color: red;
 }
 
 @media only screen and (max-width: 640px) {
 .main-container {
-    background-color:aquamarine;
+    background-color:aquamarine;}
+    
+p {
+    font-family: 'Dosis', sans-serif;
 }
+   
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    letter-spacing: 10px;
+    
+    
+}
+    
+    
+    
